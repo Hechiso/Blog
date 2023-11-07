@@ -114,6 +114,7 @@ aside {
 }
 article{
    display: flex;
+  
 }
 
 img {
@@ -123,11 +124,7 @@ height: 100px;
 
 /*------------------------------*/
 
-.registro {
-   background: #777;
-   width: 30%;
-   color: #fff;
-} 
+
 .registro {
    background: #777;
    width: 30%;
