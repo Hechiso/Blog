@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-  
+
 }
 
 header {
@@ -122,6 +122,38 @@ height: 100px;
 }
 
 /*------------------------------*/
+
+.registro {
+   background: #777;
+   width: 30%;
+   color: #fff;
+} 
+.registro {
+   background: #777;
+   width: 30%;
+   margin: auto;
+   margin-top: 3%;
+   color: #fff;
+   border-radius: 5px;
+     
+}
+
+.registro h2 {
+   margin: 0;
+   text-align: center;
+}
+.registro form{
+   margin: 5%;
+}
+
+.registro input[type="submit"] {
+   display: block;
+   margin: 0 auto;
+   margin-top: 5%;
+}
+
+/*------------------------------*/
+
 p {
     text-align: left;
     margin: 0;
@@ -164,5 +196,5 @@ h2 {
 
 h3 {
    text-align: left;
-   margin-bottom: 2px;
+  /* margin-bottom: 2px;*/
 }
