@@ -185,7 +185,30 @@ border-radius: 5px;
 }
 
 /*------------------------------*/
+.menuCategorias{
+display: flex;
+flex-direction: column;
+background: #999;
+}
 
+.menuCategorias a{
+text-decoration: none;
+margin-left: 2%;
+color: #333;
+}
+
+/*------------------------------*/
+.introduccion{
+margin: 1%;
+background: #aaa;
+}
+
+.introduccion article{
+display: flex;
+flex-direction: column;
+}
+
+/*------------------------------*/
 
 p {
     text-align: left;
