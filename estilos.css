@@ -114,12 +114,11 @@ aside {
 }
 article{
    display: flex;
-  
 }
 
 img {
-width: 300px;
-height: 100px;
+   width: 300px;
+   height: 100px;
 }
 
 /*------------------------------*/
@@ -132,7 +131,6 @@ height: 100px;
    margin-top: 3%;
    color: #fff;
    border-radius: 5px;
-     
 }
 
 .registro h2 {
@@ -149,7 +147,45 @@ height: 100px;
    margin-top: 5%;
 }
 
+.boton {
+   
+   background-color: #444;
+   border: none;
+   border-radius: 5px;
+   color: white;
+   cursor: pointer;
+   
+}
+
+.boton #icono {
+   margin-right: 5px;
+}
+
 /*------------------------------*/
+
+.contacto {
+ margin: 1%;
+ background: #aaa;
+ border-radius: 5px;
+}
+
+.contacto p{
+margin: 1%;
+}
+
+.contacto a {
+text-decoration: none;
+color: #fff;
+}
+.contacto button{
+margin: 1%;
+background-color: #444;
+border: none;
+border-radius: 5px;
+}
+
+/*------------------------------*/
+
 
 p {
     text-align: left;
@@ -193,5 +229,4 @@ h2 {
 
 h3 {
    text-align: left;
-  /* margin-bottom: 2px;*/
 }
